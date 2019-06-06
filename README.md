@@ -1,12 +1,15 @@
 
+### SwiftUI_Jike
+
 [中文版](README_CN.md)
 
 `SwiftUI` is a common cross-platform framework for the Apple ecosystem, easy to get started, support for real-time previews, easy interface construction, and can be called with UIKit.
 
 [**WWDC2019**](https://www.apple.com/ios/ios-13-preview/) has a lot of surprising techniques, such as SwiftUI,ARKit3. I learned SwiftUI by reading the official Apple documents, and then I spent some time to  make this demo.
 
-###ScreenShot
-<img src="images/section.png" width="80%">
+### ScreenShot
+
+<img src="images/section.png">
 
 ### 💻 Requirements
 
@@ -22,6 +25,6 @@ email : alphamiliPolo@gmail.com
 
 即刻 : 墨小埋
 
-## 📄 License	
+## 📄 License
 
 SwiftUI_Jike is released under the [MIT license](LICENSE). See LICENSE for details.

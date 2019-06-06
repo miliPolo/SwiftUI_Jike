@@ -1,10 +1,13 @@
+## SwiftUI_Jike
+
 `SwiftUI` 是为 Apple生态系统创建的跨平台通用框架，上手容易，支持实时预览，界面搭建便捷，并且可以跟UIKit互相调用。
 
 今年的WWDC还是有蛮多干货的，尤其最后Apple推出SwiftUI的时候，真是太振奋人心了。
 看了下Apple官方文档，感觉还是很容易入手的，花了些时间模仿了下即刻App
 
-应用截图：
-<img src="images/section.png" width="80%">
+## 应用截图
+
+<img src="images/section.png">
 
 💻 必要环境
 
