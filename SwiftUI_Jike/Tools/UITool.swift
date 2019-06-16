@@ -8,29 +8,10 @@
 import UIKit
 import SwiftUI
 
-let zoneData: [ZoneModel] = load("zoneData.json")
-let zonnData: [ZoneModel] = getZoneModel()
-
-func getZoneModel() -> [ZoneModel] {
+func loadTView<T:View>(_ views:[T], as type:T.Type = T.self) {
     
-    let model = ZoneModel(id: 1000, name: "发现圈子", imageName: "faxian", category: "233")
-    let model0 = ZoneModel(id: 1001, name: "苹果产品爱好者", imageName: "aihao", category: "233")
-    let model1 = ZoneModel(id: 1002, name: "喵星人的日常", imageName: "miao", category: "233")
-    let model2 = ZoneModel(id: 1003, name: "沙雕动物世界", imageName: "shadiao", category: "233")
-    let model3 = ZoneModel(id: 1004, name: "科技圈大小事", imageName: "keji", category: "233")
-    let model4 = ZoneModel(id: 1004, name: "今日份摄影", imageName: "sheying", category: "233")
-    let model5 = ZoneModel(id: 1004, name: "一起拍建筑", imageName: "jianzhu", category: "233")
-    var models = [ZoneModel]()
-    models.append(model)
-    models.append(model0)
-    models.append(model1)
-    models.append(model2)
-    models.append(model3)
-    models.append(model4)
-    models.append(model5)
-    
-    return models
 }
+
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
@@ -71,6 +52,13 @@ final class ImageStore {
         images.values[index][size] = sizedImage
         
         return Image(sizedImage, scale: Length(ImageStore.scale), label: Text(verbatim: name))
+    }
+    
+    func toCGImage(name: String, size: Int) -> CGImage {
+        
+        let image = UIImage(named: name)
+        
+        return image!.cgImage!
     }
     
     fileprivate func _guaranteeInitialImage(name: String) -> _ImageDictionary.Index {

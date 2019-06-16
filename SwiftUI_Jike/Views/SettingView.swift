@@ -32,22 +32,31 @@ struct SettingView : View {
             
             VStack{
                 HStack(alignment: .center){
-                    CircleImage(imgName:"meIcon")
-                    .padding(.horizontal, 15)
-                    VStack(alignment: .leading){
-                        Text("瓦恁")
+                    CircleAvator(imgName:"meicon")
+                    .padding(.horizontal, 18)
+                    VStack(alignment: .leading) {
+                        HStack{
+                            Text("瓦恁")
+                                .font(Font.system(size: 18))
+                            Image("righ_arrow")
+                                .frame(width: 21, height: 36, alignment: .leading)
+                                .scaledToFill()
+                        }
                         HStack{
                             Image("touxiang")
-                            Text("99999")
+                            Text("99999人关注")
+                            .font(Font.system(size: 13))
                         }
+                        .offset(x: 0, y: -8)
                     }
+                    .padding(.top, 10)
                     .padding(.horizontal, -10)
                     Spacer()
                 }
                 .frame(height: 100)
                 .background(Color.white
                     .cornerRadius(10, antialiased: true))
-                .shadow(radius: 5)
+                //.shadow(radius: 5)
                 .padding(.horizontal, 15)
                 .padding(.vertical, 5)
                 
@@ -59,7 +68,7 @@ struct SettingView : View {
                     HStack{
                         Color(red: 240.0/255.0, green: 243.0/255.0, blue: 245.0/255)
                     }
-                        .frame(height: 3.0)
+                    .frame(height: 3.0)
                     SettingCell(imageName: "setting_mainliuliang", title: "免流量")
                     SettingCell(imageName: "setting_hehuoren", title: "即刻合伙人")
                 }

@@ -13,4 +13,3 @@ struct TabIcon: Hashable, Codable, Identifiable {
     var title: String
     var imgName: String
 }
-

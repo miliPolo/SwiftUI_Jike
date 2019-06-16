@@ -10,18 +10,21 @@ import SwiftUI
 struct CircleImage: View {
     var imgName:String
     var body: some View {
-        Image(imgName)
+        VStack{
+            Image(imgName)
             .clipShape(Circle())
-            .overlay(
-                
-                Circle().stroke(Color.white, lineWidth: 1))
-            
-            .shadow(radius: 3)
+            //            .overlay(
+            //
+            //                Circle().stroke(Color.white, lineWidth: 1))
+            //
+            //            .shadow(radius: 3)
+        }
+        
     }
 }
 
 struct CircleImage_Preview: PreviewProvider {
     static var previews: some View {
-        CircleImage(imgName:"meIcon")
+        CircleImage(imgName:"meicon")
     }
 }

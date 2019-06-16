@@ -1,5 +1,5 @@
 //
-//  SegmentViewController.swift
+//  SegmentVC.swift
 //  SwiftUI_Jike
 //
 //  Created by alexyang on 2019/6/6.
@@ -9,7 +9,7 @@
 import UIKit
 import SwiftUI
 
-struct SegmentViewController : UIViewControllerRepresentable {
+struct SegmentVC : UIViewControllerRepresentable {
     var controllers: [UIViewController]
     func makeUIViewController(context: Context) -> UIPageViewController {
         let pageViewController = UIPageViewController(

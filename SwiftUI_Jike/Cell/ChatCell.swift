@@ -9,23 +9,25 @@
 import SwiftUI
 
 struct ChatCell : View {
-    var imageName:String
-    var title:String
-    var subTitle:String
+    var item:ChatItem
     var body: some View {
-            HStack(alignment: .center){
-                CircleImage(imgName:imageName)
-                VStack(alignment: .leading){
-                    Text(title)
-                    .bold()
-                    .padding(.top, 4)
-                    Text(subTitle)
-                    .color(Color.gray)
-                    .padding(.bottom, 8)
+            VStack{
+                HStack(alignment: .center) {
+                    CircleImage(imgName:item.imgName)
+                    VStack(alignment: .leading){
+                        Text(item.title)
+                            .font(Font.system(size: 16))
+                            .bold()
+                            .offset(x: 0, y: 0)
+                        Text(item.subTitle)
+                            .font(Font.system(size: 14))
+                            .color(Color.gray)
+                            .offset(x: 0, y: 5)
                 }
                 Spacer()
+                }
+                .frame(height: 60)
             }
-            .padding(.horizontal, 15)
             .frame(height: 60)
         }
     
@@ -34,7 +36,7 @@ struct ChatCell : View {
 #if DEBUG
 struct ChatCell_Previews : PreviewProvider {
     static var previews: some View {
-        ChatCell(imageName: "chat_box",title: "一条虫",subTitle: "瓦恁出来挨打")
+        ChatCell(item: chatList.first!)
     }
 }
 #endif

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08205C5922B221E400E520A9 /* AppDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08205C5822B221E300E520A9 /* AppDef.swift */; };
 		08284DAC22A6FB0B008C5D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DAB22A6FB0B008C5D73 /* AppDelegate.swift */; };
 		08284DAE22A6FB0B008C5D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DAD22A6FB0B008C5D73 /* SceneDelegate.swift */; };
 		08284DB022A6FB0B008C5D73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DAF22A6FB0B008C5D73 /* ContentView.swift */; };
@@ -17,8 +18,21 @@
 		08284DC422A75BEE008C5D73 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DC322A75BEE008C5D73 /* HomeView.swift */; };
 		08284DC622A75C4A008C5D73 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DC522A75C4A008C5D73 /* ActivityView.swift */; };
 		08284DC822A75C5F008C5D73 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DC722A75C5F008C5D73 /* ChatView.swift */; };
+		0859FCB222B2612D003DDAEB /* AZTabBarButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859FCAD22B2612D003DDAEB /* AZTabBarButtonDelegate.swift */; };
+		0859FCB322B2612D003DDAEB /* AZTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859FCAE22B2612D003DDAEB /* AZTabBarButton.swift */; };
+		0859FCB422B2612D003DDAEB /* EasyNotificationBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859FCAF22B2612D003DDAEB /* EasyNotificationBadge.swift */; };
+		0859FCB522B2612D003DDAEB /* AZTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859FCB022B2612D003DDAEB /* AZTabBarDelegate.swift */; };
+		0859FCB622B2612D003DDAEB /* AZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859FCB122B2612D003DDAEB /* AZTabBarController.swift */; };
+		0859FCB822B26264003DDAEB /* GYTabContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859FCB722B26264003DDAEB /* GYTabContent.swift */; };
+		085DE47222B6069000F45CBC /* ZSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085DE47122B6069000F45CBC /* ZSegmentedControl.swift */; };
+		085DE47422B606FE00F45CBC /* GYSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085DE47322B606FE00F45CBC /* GYSegment.swift */; };
 		086A477922A76F2900DDF3ED /* TabIconInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A477822A76F2900DDF3ED /* TabIconInfo.swift */; };
 		086A477B22A7705500DDF3ED /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A477A22A7705500DDF3ED /* Datas.swift */; };
+		0888D55322AE4DE30041B8C4 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D54F22AE4DE20041B8C4 /* UIColor+Extensions.swift */; };
+		0888D55422AE4DE30041B8C4 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55022AE4DE30041B8C4 /* UIView+Layout.swift */; };
+		0888D55822B0F2890041B8C4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55722B0F2890041B8C4 /* TestView.swift */; };
+		0888D55A22B0F9CB0041B8C4 /* GYSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55922B0F9CB0041B8C4 /* GYSearchBar.swift */; };
+		0888D55D22B11A740041B8C4 /* HomeDetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55C22B11A740041B8C4 /* HomeDetailInfo.swift */; };
 		088DA23922A78B82006103D5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA23822A78B81006103D5 /* CircleImage.swift */; };
 		088DA23B22A78C3B006103D5 /* UITool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA23A22A78C3B006103D5 /* UITool.swift */; };
 		088DA23D22A7AF11006103D5 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA23C22A7AF11006103D5 /* SettingCell.swift */; };
@@ -26,12 +40,20 @@
 		088DA24222A7DDBB006103D5 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA24122A7DDBB006103D5 /* ActivityCell.swift */; };
 		088DA24422A7FBEF006103D5 /* ZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA24322A7FBEF006103D5 /* ZoneCell.swift */; };
 		088DA24622A81A15006103D5 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA24522A81A15006103D5 /* CategoryRow.swift */; };
+		08BB45E122B2B7C30009716C /* pokemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45E022B2B7C30009716C /* pokemon.jpg */; };
+		08BB45E322B2B9720009716C /* CircleAvator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BB45E222B2B9720009716C /* CircleAvator.swift */; };
+		08BB45E522B2BBE60009716C /* meicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45E422B2BBE60009716C /* meicon.jpg */; };
+		08BB45E922B37BAE0009716C /* README_CN.md in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45E622B37BAE0009716C /* README_CN.md */; };
+		08BB45EA22B37BAE0009716C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45E722B37BAE0009716C /* README.md */; };
+		08BB45EB22B37BAE0009716C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45E822B37BAE0009716C /* LICENSE */; };
+		08BB45EE22B38A6D0009716C /* detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45ED22B38A6D0009716C /* detail.json */; };
+		08BB45F022B4F57A0009716C /* msg.json in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45EF22B4F57A0009716C /* msg.json */; };
+		08BB45F222B509AA0009716C /* activity.json in Resources */ = {isa = PBXBuildFile; fileRef = 08BB45F122B509AA0009716C /* activity.json */; };
 		08C52A8A22A81AB900CDFA3D /* ZoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C52A8922A81AB900CDFA3D /* ZoneModel.swift */; };
 		08C52A8D22A81BE500CDFA3D /* zoneData.json in Resources */ = {isa = PBXBuildFile; fileRef = 08C52A8C22A81BE500CDFA3D /* zoneData.json */; };
 		08C52A8F22A81F1E00CDFA3D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C52A8E22A81F1E00CDFA3D /* test.jpg */; };
 		08C52A9122A8242700CDFA3D /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C52A9022A8242700CDFA3D /* test1.jpg */; };
-		08C52A9322A8509C00CDFA3D /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C52A9222A8509C00CDFA3D /* SegmentViewController.swift */; };
-		08FAC5FA22A8CC0300BC476C /* GYSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC5F922A8CC0300BC476C /* GYSegmentView.swift */; };
+		08C52A9322A8509C00CDFA3D /* SegmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C52A9222A8509C00CDFA3D /* SegmentVC.swift */; };
 		08FAC64922A8D92A00BC476C /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC64822A8D92A00BC476C /* HomeCell.swift */; };
 		08FAC64B22A8DC4900BC476C /* kcc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC64A22A8DC4900BC476C /* kcc.jpg */; };
 		08FAC64D22A8DCB300BC476C /* 30_Fotor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC64C22A8DCB300BC476C /* 30_Fotor.jpg */; };
@@ -42,12 +64,26 @@
 		08FAC66522A8F46A00BC476C /* miao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC65F22A8F46A00BC476C /* miao.jpg */; };
 		08FAC66622A8F46A00BC476C /* shadiao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC66022A8F46A00BC476C /* shadiao.jpg */; };
 		08FAC66722A8F46A00BC476C /* sheying.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC66122A8F46A00BC476C /* sheying.jpg */; };
-		08FAC67022A90DB900BC476C /* GYTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC66E22A90DB900BC476C /* GYTabBarViewController.swift */; };
+		08FAC67022A90DB900BC476C /* GYTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC66E22A90DB900BC476C /* GYTabBarVC.swift */; };
 		08FAC67122A90DB900BC476C /* GYTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC66F22A90DB900BC476C /* GYTabView.swift */; };
 		08FAC67322A9125900BC476C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC67222A9125900BC476C /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		08F3E9E922ABD20C00AD52D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		08205C5822B221E300E520A9 /* AppDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDef.swift; sourceTree = "<group>"; };
 		08284DA822A6FB0B008C5D73 /* SwiftUI_Jike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Jike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08284DAB22A6FB0B008C5D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08284DAD22A6FB0B008C5D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +96,21 @@
 		08284DC322A75BEE008C5D73 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		08284DC522A75C4A008C5D73 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		08284DC722A75C5F008C5D73 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		0859FCAD22B2612D003DDAEB /* AZTabBarButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarButtonDelegate.swift; sourceTree = "<group>"; };
+		0859FCAE22B2612D003DDAEB /* AZTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarButton.swift; sourceTree = "<group>"; };
+		0859FCAF22B2612D003DDAEB /* EasyNotificationBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyNotificationBadge.swift; sourceTree = "<group>"; };
+		0859FCB022B2612D003DDAEB /* AZTabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarDelegate.swift; sourceTree = "<group>"; };
+		0859FCB122B2612D003DDAEB /* AZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarController.swift; sourceTree = "<group>"; };
+		0859FCB722B26264003DDAEB /* GYTabContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTabContent.swift; sourceTree = "<group>"; };
+		085DE47122B6069000F45CBC /* ZSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSegmentedControl.swift; sourceTree = "<group>"; };
+		085DE47322B606FE00F45CBC /* GYSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYSegment.swift; sourceTree = "<group>"; };
 		086A477822A76F2900DDF3ED /* TabIconInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIconInfo.swift; sourceTree = "<group>"; };
 		086A477A22A7705500DDF3ED /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		0888D54F22AE4DE20041B8C4 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		0888D55022AE4DE30041B8C4 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		0888D55722B0F2890041B8C4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		0888D55922B0F9CB0041B8C4 /* GYSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYSearchBar.swift; sourceTree = "<group>"; };
+		0888D55C22B11A740041B8C4 /* HomeDetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailInfo.swift; sourceTree = "<group>"; };
 		088DA23822A78B81006103D5 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		088DA23A22A78C3B006103D5 /* UITool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITool.swift; sourceTree = "<group>"; };
 		088DA23C22A7AF11006103D5 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
@@ -69,12 +118,21 @@
 		088DA24122A7DDBB006103D5 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		088DA24322A7FBEF006103D5 /* ZoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneCell.swift; sourceTree = "<group>"; };
 		088DA24522A81A15006103D5 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		08BB45E022B2B7C30009716C /* pokemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokemon.jpg; sourceTree = "<group>"; };
+		08BB45E222B2B9720009716C /* CircleAvator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAvator.swift; sourceTree = "<group>"; };
+		08BB45E422B2BBE60009716C /* meicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meicon.jpg; sourceTree = "<group>"; };
+		08BB45E622B37BAE0009716C /* README_CN.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_CN.md; sourceTree = "<group>"; };
+		08BB45E722B37BAE0009716C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		08BB45E822B37BAE0009716C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		08BB45ED22B38A6D0009716C /* detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
+		08BB45EF22B4F57A0009716C /* msg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = msg.json; sourceTree = "<group>"; };
+		08BB45F122B509AA0009716C /* activity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activity.json; sourceTree = "<group>"; };
 		08C52A8922A81AB900CDFA3D /* ZoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoneModel.swift; sourceTree = "<group>"; };
 		08C52A8C22A81BE500CDFA3D /* zoneData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zoneData.json; sourceTree = "<group>"; };
 		08C52A8E22A81F1E00CDFA3D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		08C52A9022A8242700CDFA3D /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
-		08C52A9222A8509C00CDFA3D /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
-		08FAC5F922A8CC0300BC476C /* GYSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSegmentView.swift; sourceTree = "<group>"; };
+		08C52A9222A8509C00CDFA3D /* SegmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentVC.swift; sourceTree = "<group>"; };
+		08F3E9E722ABD04E00AD52D5 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = SwiftUI_Jike/Res/pop.framework; sourceTree = "<group>"; };
 		08FAC64822A8D92A00BC476C /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		08FAC64A22A8DC4900BC476C /* kcc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kcc.jpg; sourceTree = "<group>"; };
 		08FAC64C22A8DCB300BC476C /* 30_Fotor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30_Fotor.jpg; sourceTree = "<group>"; };
@@ -85,7 +143,7 @@
 		08FAC65F22A8F46A00BC476C /* miao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miao.jpg; sourceTree = "<group>"; };
 		08FAC66022A8F46A00BC476C /* shadiao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shadiao.jpg; sourceTree = "<group>"; };
 		08FAC66122A8F46A00BC476C /* sheying.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sheying.jpg; sourceTree = "<group>"; };
-		08FAC66E22A90DB900BC476C /* GYTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTabBarViewController.swift; sourceTree = "<group>"; };
+		08FAC66E22A90DB900BC476C /* GYTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTabBarVC.swift; sourceTree = "<group>"; };
 		08FAC66F22A90DB900BC476C /* GYTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTabView.swift; sourceTree = "<group>"; };
 		08FAC67222A9125900BC476C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,8 +162,12 @@
 		08284D9F22A6FB0B008C5D73 = {
 			isa = PBXGroup;
 			children = (
+				08BB45E822B37BAE0009716C /* LICENSE */,
+				08BB45E622B37BAE0009716C /* README_CN.md */,
+				08BB45E722B37BAE0009716C /* README.md */,
 				08284DAA22A6FB0B008C5D73 /* SwiftUI_Jike */,
 				08284DA922A6FB0B008C5D73 /* Products */,
+				08F3E9E422ABCFBA00AD52D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,24 +182,18 @@
 		08284DAA22A6FB0B008C5D73 /* SwiftUI_Jike */ = {
 			isa = PBXGroup;
 			children = (
+				0888D55B22B0FF080041B8C4 /* Views */,
 				08FAC5FB22A8CEC500BC476C /* Tools */,
 				088DA24722A81A6C006103D5 /* Models */,
 				088DA23E22A7D16C006103D5 /* Cell */,
 				08284DAB22A6FB0B008C5D73 /* AppDelegate.swift */,
 				08284DAD22A6FB0B008C5D73 /* SceneDelegate.swift */,
-				08284DAF22A6FB0B008C5D73 /* ContentView.swift */,
-				08284DC322A75BEE008C5D73 /* HomeView.swift */,
-				08284DC522A75C4A008C5D73 /* ActivityView.swift */,
-				08284DC722A75C5F008C5D73 /* ChatView.swift */,
-				08284DC122A75613008C5D73 /* SettingView.swift */,
-				08C52A9222A8509C00CDFA3D /* SegmentViewController.swift */,
-				08FAC66F22A90DB900BC476C /* GYTabView.swift */,
-				08FAC66E22A90DB900BC476C /* GYTabBarViewController.swift */,
 				08C52A8B22A81BAC00CDFA3D /* Res */,
 				08284DB122A6FB10008C5D73 /* Assets.xcassets */,
 				08284DB622A6FB10008C5D73 /* LaunchScreen.storyboard */,
 				08284DB922A6FB10008C5D73 /* Info.plist */,
 				08284DB322A6FB10008C5D73 /* Preview Content */,
+				0888D55722B0F2890041B8C4 /* TestView.swift */,
 			);
 			path = SwiftUI_Jike;
 			sourceTree = "<group>";
@@ -150,17 +206,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0859FCAC22B2612D003DDAEB /* AZTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0859FCAD22B2612D003DDAEB /* AZTabBarButtonDelegate.swift */,
+				0859FCAE22B2612D003DDAEB /* AZTabBarButton.swift */,
+				0859FCAF22B2612D003DDAEB /* EasyNotificationBadge.swift */,
+				0859FCB022B2612D003DDAEB /* AZTabBarDelegate.swift */,
+				0859FCB122B2612D003DDAEB /* AZTabBarController.swift */,
+			);
+			path = AZTabBar;
+			sourceTree = "<group>";
+		};
+		0888D55B22B0FF080041B8C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08284DAF22A6FB0B008C5D73 /* ContentView.swift */,
+				08284DC322A75BEE008C5D73 /* HomeView.swift */,
+				08284DC522A75C4A008C5D73 /* ActivityView.swift */,
+				08284DC722A75C5F008C5D73 /* ChatView.swift */,
+				08284DC122A75613008C5D73 /* SettingView.swift */,
+				08C52A9222A8509C00CDFA3D /* SegmentVC.swift */,
+				08FAC66F22A90DB900BC476C /* GYTabView.swift */,
+				08FAC66E22A90DB900BC476C /* GYTabBarVC.swift */,
+				085DE47322B606FE00F45CBC /* GYSegment.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		088DA23E22A7D16C006103D5 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				088DA23822A78B81006103D5 /* CircleImage.swift */,
 				088DA23C22A7AF11006103D5 /* SettingCell.swift */,
-				08FAC5F922A8CC0300BC476C /* GYSegmentView.swift */,
 				088DA24522A81A15006103D5 /* CategoryRow.swift */,
 				088DA23F22A7D181006103D5 /* ChatCell.swift */,
 				088DA24122A7DDBB006103D5 /* ActivityCell.swift */,
 				088DA24322A7FBEF006103D5 /* ZoneCell.swift */,
 				08FAC64822A8D92A00BC476C /* HomeCell.swift */,
+				0888D55922B0F9CB0041B8C4 /* GYSearchBar.swift */,
+				08BB45E222B2B9720009716C /* CircleAvator.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -172,6 +257,7 @@
 				08C52A8922A81AB900CDFA3D /* ZoneModel.swift */,
 				08FAC67222A9125900BC476C /* TabBarItem.swift */,
 				086A477A22A7705500DDF3ED /* Datas.swift */,
+				0888D55C22B11A740041B8C4 /* HomeDetailInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +265,9 @@
 		08C52A8B22A81BAC00CDFA3D /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				08BB45ED22B38A6D0009716C /* detail.json */,
+				08BB45E422B2BBE60009716C /* meicon.jpg */,
+				08BB45E022B2B7C30009716C /* pokemon.jpg */,
 				08FAC65E22A8F46A00BC476C /* aihao.jpg */,
 				08FAC65D22A8F46A00BC476C /* jianzhu.jpg */,
 				08FAC65C22A8F46A00BC476C /* keji.jpg */,
@@ -191,13 +280,29 @@
 				08C52A9022A8242700CDFA3D /* test1.jpg */,
 				08C52A8E22A81F1E00CDFA3D /* test.jpg */,
 				08C52A8C22A81BE500CDFA3D /* zoneData.json */,
+				08BB45EF22B4F57A0009716C /* msg.json */,
+				08BB45F122B509AA0009716C /* activity.json */,
 			);
 			path = Res;
+			sourceTree = "<group>";
+		};
+		08F3E9E422ABCFBA00AD52D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F3E9E722ABD04E00AD52D5 /* pop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		08FAC5FB22A8CEC500BC476C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				085DE47122B6069000F45CBC /* ZSegmentedControl.swift */,
+				0859FCAC22B2612D003DDAEB /* AZTabBar */,
+				08205C5822B221E300E520A9 /* AppDef.swift */,
+				0859FCB722B26264003DDAEB /* GYTabContent.swift */,
+				0888D54F22AE4DE20041B8C4 /* UIColor+Extensions.swift */,
+				0888D55022AE4DE30041B8C4 /* UIView+Layout.swift */,
 				088DA23A22A78C3B006103D5 /* UITool.swift */,
 			);
 			path = Tools;
@@ -213,6 +318,7 @@
 				08284DA422A6FB0B008C5D73 /* Sources */,
 				08284DA522A6FB0B008C5D73 /* Frameworks */,
 				08284DA622A6FB0B008C5D73 /* Resources */,
+				08F3E9E922ABD20C00AD52D5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,16 +368,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				08284DB822A6FB10008C5D73 /* LaunchScreen.storyboard in Resources */,
+				08BB45F022B4F57A0009716C /* msg.json in Resources */,
 				08FAC66622A8F46A00BC476C /* shadiao.jpg in Resources */,
 				08FAC64B22A8DC4900BC476C /* kcc.jpg in Resources */,
 				08FAC66422A8F46A00BC476C /* aihao.jpg in Resources */,
+				08BB45E522B2BBE60009716C /* meicon.jpg in Resources */,
 				08C52A8F22A81F1E00CDFA3D /* test.jpg in Resources */,
 				08284DB522A6FB10008C5D73 /* Preview Assets.xcassets in Resources */,
 				08FAC65B22A8F37500BC476C /* faxian.jpg in Resources */,
 				08284DB222A6FB10008C5D73 /* Assets.xcassets in Resources */,
 				08FAC66322A8F46A00BC476C /* jianzhu.jpg in Resources */,
 				08FAC66522A8F46A00BC476C /* miao.jpg in Resources */,
+				08BB45E122B2B7C30009716C /* pokemon.jpg in Resources */,
 				08FAC66222A8F46A00BC476C /* keji.jpg in Resources */,
+				08BB45EA22B37BAE0009716C /* README.md in Resources */,
+				08BB45EB22B37BAE0009716C /* LICENSE in Resources */,
+				08BB45EE22B38A6D0009716C /* detail.json in Resources */,
+				08BB45F222B509AA0009716C /* activity.json in Resources */,
+				08BB45E922B37BAE0009716C /* README_CN.md in Resources */,
 				08C52A8D22A81BE500CDFA3D /* zoneData.json in Resources */,
 				08C52A9122A8242700CDFA3D /* test1.jpg in Resources */,
 				08FAC64D22A8DCB300BC476C /* 30_Fotor.jpg in Resources */,
@@ -288,26 +402,40 @@
 			files = (
 				08284DAC22A6FB0B008C5D73 /* AppDelegate.swift in Sources */,
 				08FAC64922A8D92A00BC476C /* HomeCell.swift in Sources */,
-				08FAC67022A90DB900BC476C /* GYTabBarViewController.swift in Sources */,
+				0888D55A22B0F9CB0041B8C4 /* GYSearchBar.swift in Sources */,
+				0888D55822B0F2890041B8C4 /* TestView.swift in Sources */,
+				085DE47222B6069000F45CBC /* ZSegmentedControl.swift in Sources */,
+				08FAC67022A90DB900BC476C /* GYTabBarVC.swift in Sources */,
 				08284DC222A75613008C5D73 /* SettingView.swift in Sources */,
-				08C52A9322A8509C00CDFA3D /* SegmentViewController.swift in Sources */,
+				08C52A9322A8509C00CDFA3D /* SegmentVC.swift in Sources */,
 				08284DAE22A6FB0B008C5D73 /* SceneDelegate.swift in Sources */,
+				0859FCB322B2612D003DDAEB /* AZTabBarButton.swift in Sources */,
+				0859FCB522B2612D003DDAEB /* AZTabBarDelegate.swift in Sources */,
+				0888D55D22B11A740041B8C4 /* HomeDetailInfo.swift in Sources */,
 				08284DC422A75BEE008C5D73 /* HomeView.swift in Sources */,
 				08284DC822A75C5F008C5D73 /* ChatView.swift in Sources */,
 				08FAC67122A90DB900BC476C /* GYTabView.swift in Sources */,
 				08FAC67322A9125900BC476C /* TabBarItem.swift in Sources */,
+				0888D55422AE4DE30041B8C4 /* UIView+Layout.swift in Sources */,
 				08C52A8A22A81AB900CDFA3D /* ZoneModel.swift in Sources */,
 				088DA24422A7FBEF006103D5 /* ZoneCell.swift in Sources */,
+				085DE47422B606FE00F45CBC /* GYSegment.swift in Sources */,
 				08284DC622A75C4A008C5D73 /* ActivityView.swift in Sources */,
 				088DA24622A81A15006103D5 /* CategoryRow.swift in Sources */,
+				0859FCB422B2612D003DDAEB /* EasyNotificationBadge.swift in Sources */,
+				0859FCB622B2612D003DDAEB /* AZTabBarController.swift in Sources */,
 				088DA24222A7DDBB006103D5 /* ActivityCell.swift in Sources */,
 				088DA23D22A7AF11006103D5 /* SettingCell.swift in Sources */,
+				08BB45E322B2B9720009716C /* CircleAvator.swift in Sources */,
 				086A477B22A7705500DDF3ED /* Datas.swift in Sources */,
+				08205C5922B221E400E520A9 /* AppDef.swift in Sources */,
 				088DA23922A78B82006103D5 /* CircleImage.swift in Sources */,
+				0859FCB222B2612D003DDAEB /* AZTabBarButtonDelegate.swift in Sources */,
 				086A477922A76F2900DDF3ED /* TabIconInfo.swift in Sources */,
-				08FAC5FA22A8CC0300BC476C /* GYSegmentView.swift in Sources */,
+				0859FCB822B26264003DDAEB /* GYTabContent.swift in Sources */,
 				088DA24022A7D182006103D5 /* ChatCell.swift in Sources */,
 				08284DB022A6FB0B008C5D73 /* ContentView.swift in Sources */,
+				0888D55322AE4DE30041B8C4 /* UIColor+Extensions.swift in Sources */,
 				088DA23B22A78C3B006103D5 /* UITool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +576,10 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftUI_Jike/Preview\\ Content";
 				DEVELOPMENT_TEAM = PD973WK396;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftUI_Jike/Res",
+				);
 				INFOPLIST_FILE = SwiftUI_Jike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +600,10 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftUI_Jike/Preview\\ Content";
 				DEVELOPMENT_TEAM = PD973WK396;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftUI_Jike/Res",
+				);
 				INFOPLIST_FILE = SwiftUI_Jike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

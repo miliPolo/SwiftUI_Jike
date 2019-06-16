@@ -9,6 +9,10 @@
 import SwiftUI
 
 let tabItems: [TabBarItem] = getTabItems()
+let zonnData: [ZoneModel] = load("zoneData.json")
+let detailList: [HomeDetailInfo] = load("detail.json")
+let chatList: [ChatItem] = load("msg.json")
+let activityList: [ActivityItem] = load("activity.json")
 
 func getTabItems() -> [TabBarItem] {
     

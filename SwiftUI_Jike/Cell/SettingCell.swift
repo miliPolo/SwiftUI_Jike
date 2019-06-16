@@ -12,18 +12,19 @@ struct SettingCell : View {
     var imageName:String
     var title:String
     var body: some View {
-        VStack{
+        VStack(alignment: .center){
             HStack(){
                 Image(imageName)
                 Text(title)
+                .font(Font.system(size: 15))
+                .offset(x: 5, y: 0)
                 Spacer()
+                Image("righ_arrow")
+                    .frame(width: 21, height: 36, alignment: .center)
+                    .padding(.trailing, 5)
+                    .scaledToFill()
             }
-            .padding(.top, 5)
-            .frame(height: 44)
-            .padding(.horizontal, 15)
-            Spacer()
-            Color(red: 240.0/255.0, green: 243.0/255.0, blue: 245.0/255.0)
-            .frame(height: 1)
+            .padding(.leading, 15)
             }
             .frame(height: 50)
     }
