@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0819402722B7DD710053A5B6 /* maomi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0819402622B7DD710053A5B6 /* maomi.jpg */; };
 		08205C5922B221E400E520A9 /* AppDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08205C5822B221E300E520A9 /* AppDef.swift */; };
 		08284DAC22A6FB0B008C5D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DAB22A6FB0B008C5D73 /* AppDelegate.swift */; };
 		08284DAE22A6FB0B008C5D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08284DAD22A6FB0B008C5D73 /* SceneDelegate.swift */; };
@@ -30,7 +31,6 @@
 		086A477B22A7705500DDF3ED /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A477A22A7705500DDF3ED /* Datas.swift */; };
 		0888D55322AE4DE30041B8C4 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D54F22AE4DE20041B8C4 /* UIColor+Extensions.swift */; };
 		0888D55422AE4DE30041B8C4 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55022AE4DE30041B8C4 /* UIView+Layout.swift */; };
-		0888D55822B0F2890041B8C4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55722B0F2890041B8C4 /* TestView.swift */; };
 		0888D55A22B0F9CB0041B8C4 /* GYSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55922B0F9CB0041B8C4 /* GYSearchBar.swift */; };
 		0888D55D22B11A740041B8C4 /* HomeDetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888D55C22B11A740041B8C4 /* HomeDetailInfo.swift */; };
 		088DA23922A78B82006103D5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DA23822A78B81006103D5 /* CircleImage.swift */; };
@@ -54,6 +54,7 @@
 		08C52A8F22A81F1E00CDFA3D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C52A8E22A81F1E00CDFA3D /* test.jpg */; };
 		08C52A9122A8242700CDFA3D /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C52A9022A8242700CDFA3D /* test1.jpg */; };
 		08C52A9322A8509C00CDFA3D /* SegmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C52A9222A8509C00CDFA3D /* SegmentVC.swift */; };
+		08F1F28022B73C8D005EC6E2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1F27F22B73C8D005EC6E2 /* TestView.swift */; };
 		08FAC64922A8D92A00BC476C /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FAC64822A8D92A00BC476C /* HomeCell.swift */; };
 		08FAC64B22A8DC4900BC476C /* kcc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC64A22A8DC4900BC476C /* kcc.jpg */; };
 		08FAC64D22A8DCB300BC476C /* 30_Fotor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08FAC64C22A8DCB300BC476C /* 30_Fotor.jpg */; };
@@ -83,6 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0819402622B7DD710053A5B6 /* maomi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maomi.jpg; sourceTree = "<group>"; };
 		08205C5822B221E300E520A9 /* AppDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDef.swift; sourceTree = "<group>"; };
 		08284DA822A6FB0B008C5D73 /* SwiftUI_Jike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Jike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08284DAB22A6FB0B008C5D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +110,6 @@
 		086A477A22A7705500DDF3ED /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
 		0888D54F22AE4DE20041B8C4 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		0888D55022AE4DE30041B8C4 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
-		0888D55722B0F2890041B8C4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		0888D55922B0F9CB0041B8C4 /* GYSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYSearchBar.swift; sourceTree = "<group>"; };
 		0888D55C22B11A740041B8C4 /* HomeDetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailInfo.swift; sourceTree = "<group>"; };
 		088DA23822A78B81006103D5 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		08C52A8E22A81F1E00CDFA3D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		08C52A9022A8242700CDFA3D /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
 		08C52A9222A8509C00CDFA3D /* SegmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentVC.swift; sourceTree = "<group>"; };
+		08F1F27F22B73C8D005EC6E2 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		08F3E9E722ABD04E00AD52D5 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = SwiftUI_Jike/Res/pop.framework; sourceTree = "<group>"; };
 		08FAC64822A8D92A00BC476C /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		08FAC64A22A8DC4900BC476C /* kcc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kcc.jpg; sourceTree = "<group>"; };
@@ -193,7 +195,6 @@
 				08284DB622A6FB10008C5D73 /* LaunchScreen.storyboard */,
 				08284DB922A6FB10008C5D73 /* Info.plist */,
 				08284DB322A6FB10008C5D73 /* Preview Content */,
-				0888D55722B0F2890041B8C4 /* TestView.swift */,
 			);
 			path = SwiftUI_Jike;
 			sourceTree = "<group>";
@@ -230,6 +231,7 @@
 				08FAC66F22A90DB900BC476C /* GYTabView.swift */,
 				08FAC66E22A90DB900BC476C /* GYTabBarVC.swift */,
 				085DE47322B606FE00F45CBC /* GYSegment.swift */,
+				08F1F27F22B73C8D005EC6E2 /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +267,7 @@
 		08C52A8B22A81BAC00CDFA3D /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				0819402622B7DD710053A5B6 /* maomi.jpg */,
 				08BB45ED22B38A6D0009716C /* detail.json */,
 				08BB45E422B2BBE60009716C /* meicon.jpg */,
 				08BB45E022B2B7C30009716C /* pokemon.jpg */,
@@ -297,8 +300,8 @@
 		08FAC5FB22A8CEC500BC476C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				085DE47122B6069000F45CBC /* ZSegmentedControl.swift */,
 				0859FCAC22B2612D003DDAEB /* AZTabBar */,
+				085DE47122B6069000F45CBC /* ZSegmentedControl.swift */,
 				08205C5822B221E300E520A9 /* AppDef.swift */,
 				0859FCB722B26264003DDAEB /* GYTabContent.swift */,
 				0888D54F22AE4DE20041B8C4 /* UIColor+Extensions.swift */,
@@ -370,6 +373,7 @@
 				08284DB822A6FB10008C5D73 /* LaunchScreen.storyboard in Resources */,
 				08BB45F022B4F57A0009716C /* msg.json in Resources */,
 				08FAC66622A8F46A00BC476C /* shadiao.jpg in Resources */,
+				0819402722B7DD710053A5B6 /* maomi.jpg in Resources */,
 				08FAC64B22A8DC4900BC476C /* kcc.jpg in Resources */,
 				08FAC66422A8F46A00BC476C /* aihao.jpg in Resources */,
 				08BB45E522B2BBE60009716C /* meicon.jpg in Resources */,
@@ -403,7 +407,6 @@
 				08284DAC22A6FB0B008C5D73 /* AppDelegate.swift in Sources */,
 				08FAC64922A8D92A00BC476C /* HomeCell.swift in Sources */,
 				0888D55A22B0F9CB0041B8C4 /* GYSearchBar.swift in Sources */,
-				0888D55822B0F2890041B8C4 /* TestView.swift in Sources */,
 				085DE47222B6069000F45CBC /* ZSegmentedControl.swift in Sources */,
 				08FAC67022A90DB900BC476C /* GYTabBarVC.swift in Sources */,
 				08284DC222A75613008C5D73 /* SettingView.swift in Sources */,
@@ -434,6 +437,7 @@
 				086A477922A76F2900DDF3ED /* TabIconInfo.swift in Sources */,
 				0859FCB822B26264003DDAEB /* GYTabContent.swift in Sources */,
 				088DA24022A7D182006103D5 /* ChatCell.swift in Sources */,
+				08F1F28022B73C8D005EC6E2 /* TestView.swift in Sources */,
 				08284DB022A6FB0B008C5D73 /* ContentView.swift in Sources */,
 				0888D55322AE4DE30041B8C4 /* UIColor+Extensions.swift in Sources */,
 				088DA23B22A78C3B006103D5 /* UITool.swift in Sources */,

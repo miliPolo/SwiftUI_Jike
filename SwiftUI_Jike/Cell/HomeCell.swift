@@ -79,7 +79,7 @@ struct HomeCell : View {
 #if DEBUG
 struct HomeCell_Previews : PreviewProvider {
     static var previews: some View {
-        HomeCell(info: HomeDetailInfo(id: 0, zoneName: "人人都爱宝可梦", zoneImgName: "30_Fotor", userIcon: "pokemon", nickName: "皮卡丘", timeStamp: "2小时前", content: "蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎", imgName: "kcc"))
+        HomeCell(info: HomeDetailInfo(id: 0, tag: 0,zoneName: "人人都爱宝可梦", zoneImgName: "30_Fotor", userIcon: "pokemon", nickName: "皮卡丘", timeStamp: "2小时前", content: "蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎", imgName: "kcc"))
     }
 }
 #endif

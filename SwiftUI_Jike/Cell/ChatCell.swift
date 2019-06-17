@@ -36,7 +36,7 @@ struct ChatCell : View {
 #if DEBUG
 struct ChatCell_Previews : PreviewProvider {
     static var previews: some View {
-        ChatCell(item: chatList.first!)
+        ChatCell(item: DataMgr.shared.chatList.first!)
     }
 }
 #endif

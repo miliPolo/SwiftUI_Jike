@@ -1,6 +1,7 @@
 [
     {
         "id":1001,
+        "tag": 0,
         "zoneName":"人人都爱宝可梦",
         "zoneImgName":"30_Fotor",
         "userIcon":"pokemon",
@@ -11,6 +12,7 @@
     },
     {
         "id":1002,
+        "tag": 0,
         "zoneName":"人人都爱宝可梦",
         "zoneImgName":"30_Fotor",
         "userIcon":"pokemon",
@@ -21,6 +23,7 @@
     },
     {
         "id":1003,
+        "tag": 0,
         "zoneName":"人人都爱宝可梦",
         "zoneImgName":"30_Fotor",
         "userIcon":"pokemon",
@@ -31,6 +34,7 @@
     },
     {
         "id":1004,
+        "tag": 0,
         "zoneName":"人人都爱宝可梦",
         "zoneImgName":"30_Fotor",
         "userIcon":"pokemon",
@@ -38,5 +42,137 @@
         "timeStamp":"2小时前",
         "content":"蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
         "imgName":"kcc"
+    },
+    {
+        "id":1005,
+        "tag": 1,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1006,
+        "tag": 1,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1007,
+        "tag": 1,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1008,
+        "tag": 1,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1009,
+        "tag": 2,
+        "zoneName":"人人都爱宝可梦",
+        "zoneImgName":"30_Fotor",
+        "userIcon":"pokemon",
+        "nickName":"皮卡丘",
+        "timeStamp":"2小时前",
+        "content":"蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
+        "imgName":"kcc"
+    },
+    {
+        "id":1010,
+        "tag": 2,
+        "zoneName":"人人都爱宝可梦",
+        "zoneImgName":"30_Fotor",
+        "userIcon":"pokemon",
+        "nickName":"皮卡丘",
+        "timeStamp":"2小时前",
+        "content":"蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
+        "imgName":"kcc"
+    },
+    {
+        "id":1011,
+        "tag": 2,
+        "zoneName":"人人都爱宝可梦",
+        "zoneImgName":"30_Fotor",
+        "userIcon":"pokemon",
+        "nickName":"皮卡丘",
+        "timeStamp":"2小时前",
+        "content":"蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
+        "imgName":"kcc"
+    },
+    {
+        "id":1012,
+        "tag": 2,
+        "zoneName":"人人都爱宝可梦",
+        "zoneImgName":"30_Fotor",
+        "userIcon":"pokemon",
+        "nickName":"皮卡丘",
+        "timeStamp":"2小时前",
+        "content":"蒜头丘！\n皮卡皮卡₍₍ (̨̡ ‾᷄ᗣ‾᷅ )̧̢ ₎₎",
+        "imgName":"kcc"
+    },
+    {
+        "id":1013,
+        "tag": 3,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1014,
+        "tag": 3,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1015,
+        "tag": 3,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
+    },
+    {
+        "id":1016,
+        "tag": 4,
+        "zoneName":"喵星人的日常",
+        "zoneImgName":"miao",
+        "userIcon":"pokemon",
+        "nickName":"DDNNAA",
+        "timeStamp":"1小时前",
+        "content":"加强学习",
+        "imgName":"maomi"
     }
 ]

@@ -10,6 +10,7 @@ import SwiftUI
 
 struct HomeDetailInfo : Identifiable, Hashable, Codable {
     var id:Int
+    var tag:Int
     var zoneName:String
     var zoneImgName:String
     var userIcon:String

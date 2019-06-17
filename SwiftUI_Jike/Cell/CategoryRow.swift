@@ -54,7 +54,7 @@ struct CategoryItem: View {
 struct CategoryRow_Previews: PreviewProvider {
     static var previews: some View {
         
-        CategoryRow(items: zonnData)
+        CategoryRow(items: DataMgr.shared.zonnData)
     }
 }
 #endif

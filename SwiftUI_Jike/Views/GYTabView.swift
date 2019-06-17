@@ -40,7 +40,7 @@ struct GYTabView_Previews : PreviewProvider {
                      AnyView(ActivityView()),
                      AnyView(ChatView()),
                      AnyView(SettingView())],
-                  tabItems: getTabItems())
+                  tabItems: DataMgr.shared.tabItems)
     }
 }
 #endif

@@ -78,7 +78,6 @@ struct SettingView : View {
                 }
                 .padding(.top, -60)
         }
-        //.edgesIgnoringSafeArea(.top)
         .background(Color(red: 240.0/255.0, green: 243.0/255.0, blue: 245.0/255))
     }
     

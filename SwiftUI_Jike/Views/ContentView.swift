@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ContentView : View {
+	@State var currentPage = 0
+	let segItems: [String] = ["关注", "推荐", "附近", "即刻合伙人"]
     var body: some View {
 		
 		GYTabView(views:
@@ -16,7 +18,7 @@ struct ContentView : View {
 					 AnyView(ActivityView()),
 					 AnyView(ChatView()),
 					 AnyView(SettingView())],
-				  tabItems: getTabItems())
+				  tabItems: DataMgr.shared.getTabItems())
 		.edgesIgnoringSafeArea(.top)
     }
 }

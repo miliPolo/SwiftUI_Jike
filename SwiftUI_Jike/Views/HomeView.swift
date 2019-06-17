@@ -11,6 +11,8 @@ import SwiftUI
 struct HomeView : View {
     let itemId = "关注"
     let segItems: [String] = ["关注", "推荐", "附近", "即刻合伙人"]
+    @State var detailList: [HomeDetailInfo] = DataMgr.shared.detailList
+    @State var currentPage = 0
     var body: some View {
         NavigationView{
             VStack{
@@ -37,22 +39,21 @@ struct HomeView : View {
                             .padding(.top, 10)
                             .padding(.horizontal, 10)
                             .frame(height:36)
-                        CategoryRow(items: zonnData)
+                        CategoryRow(items: DataMgr.shared.zonnData)
                         }
                         .padding(.leading, 10)
                         .background(Color.white)
                         .frame(width: SCREENWIDTH,height: 145)
                         .offset(x: 0, y: -6)
                 ){
-                    HStack{
-                        GYSegment(titles: segItems, currentPage: .constant(0))
-                    }.offset(x: -25, y: 0)
-                    
-                    ForEach(detailList.identified(by: \.id)) { info in
-                        NavigationButton(destination: TestView()) {
-                            HomeCell(info: info)
+                    GYSegment(titles: segItems, detaiList: $detailList, currentPage: $currentPage)
+                        .frame(height: 36)
+                        .offset(x: -25, y: 0)
+                        ForEach(detailList.identified(by: \.id)) { info in
+                            NavigationButton(destination: TestView()) {
+                                HomeCell(info: info)
+                            }
                         }
-                    }
                 }
                 }
                 .edgesIgnoringSafeArea(.top)

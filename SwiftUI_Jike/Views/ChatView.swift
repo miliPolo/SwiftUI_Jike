@@ -39,7 +39,7 @@ struct ChatView : View {
                         .background(Color.white)
                         .offset(x: 0, y: -6)
                     ){
-                        ForEach(chatList.identified(by: \.id)) { item in
+                        ForEach(DataMgr.shared.chatList.identified(by: \.id)) { item in
                             NavigationButton(destination: TestView()) {
                                 ChatCell(item: item)
                             }

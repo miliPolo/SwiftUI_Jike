@@ -11,6 +11,7 @@ import SwiftUI
 struct GYSegment : UIViewRepresentable {
     
     var titles:[String]
+    @Binding var detaiList: [HomeDetailInfo]
     @Binding var currentPage: Int
     
     func makeCoordinator() -> GYSegment.Coordinator {
@@ -29,14 +30,25 @@ struct GYSegment : UIViewRepresentable {
         segment.textSelectedColor = UIColor.black
         segment.setHybridResource(titles, images: [], fixedWidth: SCREENWIDTH/4 - 10)
         segment.setSilder(backgroundColor: UIColor(red: 255, green: 228, blue: 20), position: .bottomWithHight(3), widthStyle: .fixedWidth(36))
+        segment.delegate = context.coordinator
+        
         return segment
     }
     
-    func updateUIView(_ uiView: ZSegmentedControl, context: Context) {
-        
+    func updateUIView(_ segment: ZSegmentedControl, context: Context) {
+        segment.selectedIndex = currentPage
     }
     
-    class Coordinator: NSObject {
+    class Coordinator: NSObject, ZSegmentedControlSelectedProtocol {
+        func segmentedControlSelectedIndex(_ index: Int, animated: Bool, segmentedControl: ZSegmentedControl) {
+            
+            DispatchQueue.main.async {
+                print("segment curIndex: \(index)")
+                self.control.currentPage = index
+                self.control.detaiList = DataMgr.shared.getDetailList(tag: index)
+            }
+        }
+        
         var control: GYSegment
         
         init(_ control: GYSegment) {
@@ -44,10 +56,10 @@ struct GYSegment : UIViewRepresentable {
         }
     }
 }
-#if DEBUG
-struct GYSegment_Previews : PreviewProvider {
-    static var previews: some View {
-        GYSegment(titles: ["关注", "推荐", "附近", "即刻合伙人"], currentPage: .constant(0))
-    }
-}
-#endif
+//#if DEBUG
+//struct GYSegment_Previews : PreviewProvider {
+//    static var previews: some View {
+//        GYSegment(titles: ["关注", "推荐", "附近", "即刻合伙人"], detaiList: [], currentPage: .constant(0))
+//    }
+//}
+//#endif

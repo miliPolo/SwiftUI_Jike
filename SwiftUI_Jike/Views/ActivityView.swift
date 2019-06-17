@@ -44,7 +44,7 @@ struct ActivityView : View {
                                 .offset(x: 0, y: -4)
                         }
                     ){
-                        ForEach(activityList.identified(by: \.id)) { item in
+                        ForEach(DataMgr.shared.activityList.identified(by: \.id)) { item in
                             NavigationButton(destination: TestView()) {
                                 ActivityCell(item: item)
                             }

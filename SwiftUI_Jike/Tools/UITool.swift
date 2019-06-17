@@ -8,11 +8,6 @@
 import UIKit
 import SwiftUI
 
-func loadTView<T:View>(_ views:[T], as type:T.Type = T.self) {
-    
-}
-
-
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
     
