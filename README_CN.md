@@ -8,7 +8,7 @@
 ## 应用截图
 
 <img src="images/section.png">
-- ![Jike.gif](images/jike_SwiftUI.GIF)
+![jike_SwiftUI.GIF](images/jike_SwiftUI.GIF)
 
 💻 必要环境
 
