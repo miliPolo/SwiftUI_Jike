@@ -10,7 +10,7 @@
 ### ScreenShot
 
 <img src="images/section.png">
-![jike_SwiftUI.GIF](images/jike_SwiftUI.GIF)
+![jike_SwiftUI](./images/jike_SwiftUI.GIF)
 
 ### 💻 Requirements
 
