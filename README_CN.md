@@ -8,7 +8,7 @@
 ## 应用截图
 
 <img src="images/section.png">
-![jike_SwiftUI.GIF](https://upload-images.jianshu.io/upload_images/1635840-e4a87ef16688d09f.GIF?imageMogr2/auto-orient/strip)
+<iframe height=829 width=464 src="images/jike_SwiftUI.GIF">
 
 💻 必要环境
 
