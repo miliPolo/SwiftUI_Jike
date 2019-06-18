@@ -8,7 +8,7 @@
 ## 应用截图
 
 <img src="images/section.png">
-<iframe height=829 width=464 src="images/jike_SwiftUI.GIF">
+<img src="images/jike_SwiftUI.GIF">
 
 💻 必要环境
 
